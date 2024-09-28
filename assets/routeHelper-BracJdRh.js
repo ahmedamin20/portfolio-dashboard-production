@@ -1,0 +1,1 @@
+const s=(e="",n={})=>{let r=e;for(const[t,a]of Object.entries(n))r=r.replace(`:${t}`,a);return r};function c(){const e=new URLSearchParams(window.location.search),n=new Set;e.forEach((a,o)=>{n.add(o)});const r=Array.from(n),t=new URLSearchParams;return r.forEach(a=>{if(typeof a=="string"){const o=e.get(a);t.append(a,o)}}),t}export{c as g,s as p};
