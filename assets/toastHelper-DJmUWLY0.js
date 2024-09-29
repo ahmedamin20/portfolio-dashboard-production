@@ -1,0 +1,1 @@
+import{i as o,r as l,A as s}from"./index-1w7hjozq.js";const d=t=>{if(typeof t=="string"){const a=o(e=>e[t].all.loading),r=o(e=>e[t].deleteLoading);t=a||r}l.useEffect(()=>{t?(s.dismiss(),s.loading("Loading")):s.dismiss()},[t])};export{d as t};
